@@ -1,0 +1,10 @@
+name = "blip-chat-api"
+type = "webpack"
+account_id = "your_account_id"
+workers_dev = true
+
+[env.production]
+route = "your_domain.com/api/*"
+
+[env.production.vars]
+FIREBASE_PROJECT_ID = "your_firebase_project_id"
